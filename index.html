@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    
+        <video class="video" muted autoplay loop page-inine>
+            <source src="Clouds_Free_STOCK_FOOTAGE(1440p).webm">
+        </video>
+           
+       <div class="container p-5">
+            <h5 class="display-5 ps-5 text-center text-warning" style=" font-weight:700; text-shadow: 2px 2px 2px rgb(249, 249, 246);">Weather App</h5>
+            <form class="my-3">
+                <input placeholder="Enter City Name" type="text"  class=" form-control rounded-3 my-3  reqired " style="border: 1px solid; border-radius: 50px;"/>
+            <button class="text-start btn btn-success ronded-0 w-100 " style="border: 1px solid white;">Search Weather</button>
+            </form>
+            <div class="card p-3 shadow-lg rounded-3"  style=" background-color: rgba(6, 6, 6, 0.487) ";>
+         <span class="d-flex align-items-center justify-content-between">
+            <span>
+                <h1 style="text-shadow: 2px 2px 2px rgb(4, 4, 4);" class="card-title display-3 text-light ">CITY TEMPRATURE</h1>
+                <h2 style="text-shadow: 2px 2px 2px rgb(253, 251, 251);" class="display-4 card-title text-warning ">CITY NAME</h2>
+            </span>
+            <span>
+                <img src="" alt="">
+                <p class="text-secondary text-warning"></p>
+            </span>
+        </span>
+            <div  class="days-forecast d-flex align-items-center justify-content-between flex-column">
+                <h2 style="text-shadow: 2px 2px 2px rgb(4, 4, 4);">7-days forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3 id="local1">()</h3>
+                        <img src="" id="img1" alt="">
+                        <h4  id="head1">Temp____:°C</h4>
+                        <h4 id="head2">wind___:kph</h4>
+                        <h4 id="head3">Humidity___:%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 id="local2">()</h3>
+                        <img src="" id="img2" alt="">
+                        <h4 id="head4">Temp___:°C</h4>
+                        <h4 id="head5">wind___:kph</h4>
+                        <h4 id="head6">Humidity___:%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 id="local3">()</h3>
+                        <img src="" id="img3" alt="">
+                        <h4 id="head7">Temp___:°C</h4>
+                        <h4 id="head8">wind___:kph</h4>
+                        <h4 id="head9">Humidity___:%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 id="local4">()</h3>
+                        <img src="" id="img3" alt="">
+                        <h4 id="head10">Temp___:°C</h4>
+                        <h4 id="head11">wind___:kph</h4>
+                        <h4 id="head12">Humidity___:%</h4>
+                    </li>
+                   
+                    <li class="card">
+                        <h3 id="local5">()</h3>
+                        <img src="" id="img5" alt="">
+                        <h4  id="head13">Temp:___°C</h4>
+                        <h4 id="head14">wind:___m/s</h4>
+                        <h4 id="head15">Humidity:___%</h4>
+                    </li>
+
+                    <li class="card">
+                        <h3 id="local6">()</h3>
+                        <img src="" id="img6" alt="">
+                        <h4  id="head16">Temp:___°C</h4>
+                        <h4 id="head17">wind:___m/s</h4>
+                        <h4 id="head18">Humidity:___%</h4>
+                    </li>
+                  
+                    <li class="card">
+                        <h3 id="local7">()</h3>
+                        <img src="" id="img7" alt="">
+                        <h4  id="head19">Temp:___°C</h4>
+                        <h4 id="head20">wind:___m/s</h4>
+                        <h4 id="head21">Humidity:___%</h4>
+                    </li>
+                  
+                </ul>
+            </div>
+      
+       </div>
+    </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+       <script src="main.js"></script>
+</body>
+</html>

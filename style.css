@@ -1,0 +1,61 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.days-forecast h2{
+    font-size: 3rem;
+    margin:20px 0;
+    color:white;
+}
+
+.weather-cards{
+       display:flex;
+       gap:10px;
+       padding: 10px;
+}
+
+.weather-cards .card{
+       list-style: none;
+       color: #fff;
+       padding: 14px 20px;
+       border-radius: 5px;
+       background-color: #6c757d95;
+}
+
+.weather-cards .card img{
+          max-width: 50px;
+}
+
+.card h3{
+     font-size: 17px;
+     color: rgb(252, 216, 11);
+}
+
+.card h4{
+       font-size: 15px;
+}
+
+video{
+      width: 1349px;
+      height: 790px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      object-fit: cover;
+}
+
+@media(max-width:990px) {
+       .weather-cards{
+                  width:100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+        }
+}
+@media (max-width:480px) {
+        .card h3{
+               font-size: 20px;
+        } 
+}
